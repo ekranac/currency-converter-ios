@@ -78,10 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				0055CA361C144F3200781184 /* AppDelegate.swift */,
-				0055CA381C144F3200781184 /* ViewController.swift */,
-				0055CA3A1C144F3200781184 /* Main.storyboard */,
+				0055CA571C1450D400781184 /* Controllers */,
+				0055CA561C1450AB00781184 /* Views */,
 				0055CA3D1C144F3200781184 /* Assets.xcassets */,
-				0055CA3F1C144F3200781184 /* LaunchScreen.storyboard */,
 				0055CA421C144F3200781184 /* Info.plist */,
 			);
 			path = CurrencyConverter;
@@ -94,6 +93,23 @@
 				0055CA4D1C144F3200781184 /* Info.plist */,
 			);
 			path = CurrencyConverterTests;
+			sourceTree = "<group>";
+		};
+		0055CA561C1450AB00781184 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0055CA3A1C144F3200781184 /* Main.storyboard */,
+				0055CA3F1C144F3200781184 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0055CA571C1450D400781184 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0055CA381C144F3200781184 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
